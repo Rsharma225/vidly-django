@@ -12,7 +12,7 @@ A modern Django web app inspired by the Vidly project.
 
 \- Movie detail page
 
-\- Sort by Title / Genre / Price (Asc/Desc)
+\- Sort by Title / Genre / Price (Asc and Desc)
 
 \- Admin panel (Movies, Genres, Customers, Rentals)
 
