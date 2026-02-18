@@ -1,0 +1,2272 @@
+[
+  {
+    "model": "movies.genre",
+    "pk": 1,
+    "fields": {
+      "name": "Action"
+    }
+  },
+  {
+    "model": "movies.genre",
+    "pk": 2,
+    "fields": {
+      "name": "Comedy"
+    }
+  },
+  {
+    "model": "movies.genre",
+    "pk": 3,
+    "fields": {
+      "name": "Drama"
+    }
+  },
+  {
+    "model": "movies.genre",
+    "pk": 4,
+    "fields": {
+      "name": "Thriller"
+    }
+  },
+  {
+    "model": "movies.genre",
+    "pk": 5,
+    "fields": {
+      "name": "Sci-Fi"
+    }
+  },
+  {
+    "model": "movies.genre",
+    "pk": 6,
+    "fields": {
+      "name": "Romance"
+    }
+  },
+  {
+    "model": "movies.genre",
+    "pk": 7,
+    "fields": {
+      "name": "Horror"
+    }
+  },
+  {
+    "model": "movies.genre",
+    "pk": 8,
+    "fields": {
+      "name": "Animation"
+    }
+  },
+  {
+    "model": "movies.genre",
+    "pk": 9,
+    "fields": {
+      "name": "Family"
+    }
+  },
+  {
+    "model": "movies.genre",
+    "pk": 10,
+    "fields": {
+      "name": "Crime"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 1,
+    "fields": {
+      "title": "The Shawshank Redemption",
+      "genre": 3,
+      "release_year": 2010,
+      "number_in_stock": 4,
+      "daily_rental_rate": "1.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 2,
+    "fields": {
+      "title": "The Godfather",
+      "genre": 10,
+      "release_year": 2017,
+      "number_in_stock": 9,
+      "daily_rental_rate": "3.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 3,
+    "fields": {
+      "title": "The Dark Knight",
+      "genre": 3,
+      "release_year": 1984,
+      "number_in_stock": 5,
+      "daily_rental_rate": "2.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 4,
+    "fields": {
+      "title": "Pulp Fiction",
+      "genre": 3,
+      "release_year": 2013,
+      "number_in_stock": 18,
+      "daily_rental_rate": "2.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 5,
+    "fields": {
+      "title": "Fight Club",
+      "genre": 3,
+      "release_year": 2007,
+      "number_in_stock": 14,
+      "daily_rental_rate": "1.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 6,
+    "fields": {
+      "title": "Forrest Gump",
+      "genre": 3,
+      "release_year": 1971,
+      "number_in_stock": 3,
+      "daily_rental_rate": "3.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 7,
+    "fields": {
+      "title": "Inception",
+      "genre": 5,
+      "release_year": 1984,
+      "number_in_stock": 17,
+      "daily_rental_rate": "1.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 8,
+    "fields": {
+      "title": "The Matrix",
+      "genre": 5,
+      "release_year": 2005,
+      "number_in_stock": 7,
+      "daily_rental_rate": "5.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 9,
+    "fields": {
+      "title": "Goodfellas",
+      "genre": 10,
+      "release_year": 1996,
+      "number_in_stock": 8,
+      "daily_rental_rate": "5.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 10,
+    "fields": {
+      "title": "Se7en",
+      "genre": 3,
+      "release_year": 2007,
+      "number_in_stock": 9,
+      "daily_rental_rate": "1.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 11,
+    "fields": {
+      "title": "The Silence of the Lambs",
+      "genre": 3,
+      "release_year": 2018,
+      "number_in_stock": 6,
+      "daily_rental_rate": "4.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 12,
+    "fields": {
+      "title": "Interstellar",
+      "genre": 5,
+      "release_year": 1991,
+      "number_in_stock": 9,
+      "daily_rental_rate": "2.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 13,
+    "fields": {
+      "title": "The Green Mile",
+      "genre": 3,
+      "release_year": 1983,
+      "number_in_stock": 11,
+      "daily_rental_rate": "2.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 14,
+    "fields": {
+      "title": "Gladiator",
+      "genre": 3,
+      "release_year": 1975,
+      "number_in_stock": 13,
+      "daily_rental_rate": "2.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 15,
+    "fields": {
+      "title": "The Departed",
+      "genre": 10,
+      "release_year": 1992,
+      "number_in_stock": 12,
+      "daily_rental_rate": "3.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 16,
+    "fields": {
+      "title": "Saving Private Ryan",
+      "genre": 3,
+      "release_year": 2021,
+      "number_in_stock": 2,
+      "daily_rental_rate": "5.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 17,
+    "fields": {
+      "title": "Schindler's List",
+      "genre": 3,
+      "release_year": 2004,
+      "number_in_stock": 4,
+      "daily_rental_rate": "4.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 18,
+    "fields": {
+      "title": "The Pianist",
+      "genre": 3,
+      "release_year": 1975,
+      "number_in_stock": 18,
+      "daily_rental_rate": "3.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 19,
+    "fields": {
+      "title": "The Prestige",
+      "genre": 3,
+      "release_year": 2023,
+      "number_in_stock": 20,
+      "daily_rental_rate": "4.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 20,
+    "fields": {
+      "title": "Whiplash",
+      "genre": 3,
+      "release_year": 2006,
+      "number_in_stock": 7,
+      "daily_rental_rate": "2.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 21,
+    "fields": {
+      "title": "The Lion King",
+      "genre": 9,
+      "release_year": 1972,
+      "number_in_stock": 8,
+      "daily_rental_rate": "3.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 22,
+    "fields": {
+      "title": "Toy Story",
+      "genre": 8,
+      "release_year": 1975,
+      "number_in_stock": 8,
+      "daily_rental_rate": "2.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 23,
+    "fields": {
+      "title": "Finding Nemo",
+      "genre": 8,
+      "release_year": 1994,
+      "number_in_stock": 9,
+      "daily_rental_rate": "5.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 24,
+    "fields": {
+      "title": "Up",
+      "genre": 8,
+      "release_year": 2010,
+      "number_in_stock": 12,
+      "daily_rental_rate": "2.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 25,
+    "fields": {
+      "title": "WALL\u00b7E",
+      "genre": 8,
+      "release_year": 1993,
+      "number_in_stock": 12,
+      "daily_rental_rate": "3.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 26,
+    "fields": {
+      "title": "Spirited Away",
+      "genre": 8,
+      "release_year": 2012,
+      "number_in_stock": 9,
+      "daily_rental_rate": "2.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 27,
+    "fields": {
+      "title": "Princess Mononoke",
+      "genre": 3,
+      "release_year": 2008,
+      "number_in_stock": 6,
+      "daily_rental_rate": "5.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 28,
+    "fields": {
+      "title": "My Neighbor Totoro",
+      "genre": 8,
+      "release_year": 2016,
+      "number_in_stock": 8,
+      "daily_rental_rate": "2.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 29,
+    "fields": {
+      "title": "Coco",
+      "genre": 8,
+      "release_year": 1999,
+      "number_in_stock": 13,
+      "daily_rental_rate": "3.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 30,
+    "fields": {
+      "title": "Inside Out",
+      "genre": 3,
+      "release_year": 2010,
+      "number_in_stock": 18,
+      "daily_rental_rate": "3.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 31,
+    "fields": {
+      "title": "Titanic",
+      "genre": 6,
+      "release_year": 2013,
+      "number_in_stock": 11,
+      "daily_rental_rate": "1.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 32,
+    "fields": {
+      "title": "La La Land",
+      "genre": 6,
+      "release_year": 1984,
+      "number_in_stock": 2,
+      "daily_rental_rate": "4.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 33,
+    "fields": {
+      "title": "The Notebook",
+      "genre": 6,
+      "release_year": 1995,
+      "number_in_stock": 9,
+      "daily_rental_rate": "2.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 34,
+    "fields": {
+      "title": "Pride & Prejudice",
+      "genre": 6,
+      "release_year": 1983,
+      "number_in_stock": 19,
+      "daily_rental_rate": "4.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 35,
+    "fields": {
+      "title": "Notting Hill",
+      "genre": 6,
+      "release_year": 1983,
+      "number_in_stock": 16,
+      "daily_rental_rate": "4.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 36,
+    "fields": {
+      "title": "Pretty Woman",
+      "genre": 6,
+      "release_year": 2011,
+      "number_in_stock": 15,
+      "daily_rental_rate": "2.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 37,
+    "fields": {
+      "title": "The Terminator",
+      "genre": 3,
+      "release_year": 1986,
+      "number_in_stock": 5,
+      "daily_rental_rate": "3.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 38,
+    "fields": {
+      "title": "Terminator 2: Judgment Day",
+      "genre": 3,
+      "release_year": 2017,
+      "number_in_stock": 18,
+      "daily_rental_rate": "5.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 39,
+    "fields": {
+      "title": "Alien",
+      "genre": 5,
+      "release_year": 1986,
+      "number_in_stock": 19,
+      "daily_rental_rate": "4.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 40,
+    "fields": {
+      "title": "Aliens",
+      "genre": 5,
+      "release_year": 2007,
+      "number_in_stock": 13,
+      "daily_rental_rate": "4.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 41,
+    "fields": {
+      "title": "Blade Runner",
+      "genre": 5,
+      "release_year": 1984,
+      "number_in_stock": 5,
+      "daily_rental_rate": "5.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 42,
+    "fields": {
+      "title": "Blade Runner 2049",
+      "genre": 5,
+      "release_year": 2001,
+      "number_in_stock": 3,
+      "daily_rental_rate": "1.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 43,
+    "fields": {
+      "title": "Mad Max: Fury Road",
+      "genre": 1,
+      "release_year": 2025,
+      "number_in_stock": 4,
+      "daily_rental_rate": "2.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 44,
+    "fields": {
+      "title": "John Wick",
+      "genre": 1,
+      "release_year": 2010,
+      "number_in_stock": 6,
+      "daily_rental_rate": "4.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 45,
+    "fields": {
+      "title": "Die Hard",
+      "genre": 1,
+      "release_year": 2008,
+      "number_in_stock": 3,
+      "daily_rental_rate": "4.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 46,
+    "fields": {
+      "title": "Lethal Weapon",
+      "genre": 3,
+      "release_year": 1994,
+      "number_in_stock": 20,
+      "daily_rental_rate": "5.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 47,
+    "fields": {
+      "title": "The Bourne Identity",
+      "genre": 1,
+      "release_year": 2003,
+      "number_in_stock": 9,
+      "daily_rental_rate": "5.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 48,
+    "fields": {
+      "title": "The Bourne Supremacy",
+      "genre": 1,
+      "release_year": 2025,
+      "number_in_stock": 1,
+      "daily_rental_rate": "2.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 49,
+    "fields": {
+      "title": "The Bourne Ultimatum",
+      "genre": 1,
+      "release_year": 2013,
+      "number_in_stock": 18,
+      "daily_rental_rate": "3.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 50,
+    "fields": {
+      "title": "Mission: Impossible",
+      "genre": 1,
+      "release_year": 2019,
+      "number_in_stock": 11,
+      "daily_rental_rate": "2.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 51,
+    "fields": {
+      "title": "Mission: Impossible II",
+      "genre": 1,
+      "release_year": 1988,
+      "number_in_stock": 14,
+      "daily_rental_rate": "2.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 52,
+    "fields": {
+      "title": "Mission: Impossible III",
+      "genre": 1,
+      "release_year": 1999,
+      "number_in_stock": 1,
+      "daily_rental_rate": "3.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 53,
+    "fields": {
+      "title": "Ghost Protocol",
+      "genre": 3,
+      "release_year": 2002,
+      "number_in_stock": 6,
+      "daily_rental_rate": "5.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 54,
+    "fields": {
+      "title": "Rogue Nation",
+      "genre": 3,
+      "release_year": 1976,
+      "number_in_stock": 10,
+      "daily_rental_rate": "5.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 55,
+    "fields": {
+      "title": "Fallout",
+      "genre": 3,
+      "release_year": 2008,
+      "number_in_stock": 7,
+      "daily_rental_rate": "2.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 56,
+    "fields": {
+      "title": "The Avengers",
+      "genre": 1,
+      "release_year": 1993,
+      "number_in_stock": 6,
+      "daily_rental_rate": "5.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 57,
+    "fields": {
+      "title": "Avengers: Infinity War",
+      "genre": 1,
+      "release_year": 2019,
+      "number_in_stock": 17,
+      "daily_rental_rate": "1.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 58,
+    "fields": {
+      "title": "Avengers: Endgame",
+      "genre": 1,
+      "release_year": 2008,
+      "number_in_stock": 11,
+      "daily_rental_rate": "5.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 59,
+    "fields": {
+      "title": "Iron Man",
+      "genre": 1,
+      "release_year": 1971,
+      "number_in_stock": 4,
+      "daily_rental_rate": "4.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 60,
+    "fields": {
+      "title": "Captain America: The Winter Soldier",
+      "genre": 1,
+      "release_year": 2023,
+      "number_in_stock": 10,
+      "daily_rental_rate": "3.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 61,
+    "fields": {
+      "title": "Guardians of the Galaxy",
+      "genre": 3,
+      "release_year": 1973,
+      "number_in_stock": 8,
+      "daily_rental_rate": "2.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 62,
+    "fields": {
+      "title": "Spider-Man: Into the Spider-Verse",
+      "genre": 3,
+      "release_year": 1975,
+      "number_in_stock": 16,
+      "daily_rental_rate": "2.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 63,
+    "fields": {
+      "title": "Spider-Man: Homecoming",
+      "genre": 3,
+      "release_year": 2018,
+      "number_in_stock": 18,
+      "daily_rental_rate": "2.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 64,
+    "fields": {
+      "title": "Logan",
+      "genre": 3,
+      "release_year": 1978,
+      "number_in_stock": 16,
+      "daily_rental_rate": "5.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 65,
+    "fields": {
+      "title": "The Batman",
+      "genre": 3,
+      "release_year": 1980,
+      "number_in_stock": 9,
+      "daily_rental_rate": "5.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 66,
+    "fields": {
+      "title": "Joker",
+      "genre": 10,
+      "release_year": 2025,
+      "number_in_stock": 20,
+      "daily_rental_rate": "4.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 67,
+    "fields": {
+      "title": "The Usual Suspects",
+      "genre": 7,
+      "release_year": 1983,
+      "number_in_stock": 18,
+      "daily_rental_rate": "3.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 68,
+    "fields": {
+      "title": "Memento",
+      "genre": 4,
+      "release_year": 2015,
+      "number_in_stock": 10,
+      "daily_rental_rate": "4.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 69,
+    "fields": {
+      "title": "The Sixth Sense",
+      "genre": 4,
+      "release_year": 2012,
+      "number_in_stock": 12,
+      "daily_rental_rate": "5.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 70,
+    "fields": {
+      "title": "Shutter Island",
+      "genre": 4,
+      "release_year": 2003,
+      "number_in_stock": 15,
+      "daily_rental_rate": "2.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 71,
+    "fields": {
+      "title": "The Social Network",
+      "genre": 3,
+      "release_year": 1985,
+      "number_in_stock": 8,
+      "daily_rental_rate": "2.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 72,
+    "fields": {
+      "title": "The Big Short",
+      "genre": 3,
+      "release_year": 1991,
+      "number_in_stock": 1,
+      "daily_rental_rate": "5.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 73,
+    "fields": {
+      "title": "Moneyball",
+      "genre": 3,
+      "release_year": 1984,
+      "number_in_stock": 19,
+      "daily_rental_rate": "3.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 74,
+    "fields": {
+      "title": "The Wolf of Wall Street",
+      "genre": 8,
+      "release_year": 1970,
+      "number_in_stock": 3,
+      "daily_rental_rate": "1.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 75,
+    "fields": {
+      "title": "Catch Me If You Can",
+      "genre": 3,
+      "release_year": 1984,
+      "number_in_stock": 3,
+      "daily_rental_rate": "1.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 76,
+    "fields": {
+      "title": "Ocean's Eleven",
+      "genre": 3,
+      "release_year": 2025,
+      "number_in_stock": 11,
+      "daily_rental_rate": "2.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 77,
+    "fields": {
+      "title": "Ocean's Twelve",
+      "genre": 3,
+      "release_year": 2002,
+      "number_in_stock": 8,
+      "daily_rental_rate": "3.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 78,
+    "fields": {
+      "title": "Ocean's Thirteen",
+      "genre": 3,
+      "release_year": 2012,
+      "number_in_stock": 16,
+      "daily_rental_rate": "3.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 79,
+    "fields": {
+      "title": "Heat",
+      "genre": 10,
+      "release_year": 2004,
+      "number_in_stock": 5,
+      "daily_rental_rate": "5.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 80,
+    "fields": {
+      "title": "Collateral",
+      "genre": 10,
+      "release_year": 1985,
+      "number_in_stock": 16,
+      "daily_rental_rate": "4.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 81,
+    "fields": {
+      "title": "Casino",
+      "genre": 10,
+      "release_year": 1982,
+      "number_in_stock": 4,
+      "daily_rental_rate": "2.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 82,
+    "fields": {
+      "title": "Taxi Driver",
+      "genre": 10,
+      "release_year": 2012,
+      "number_in_stock": 14,
+      "daily_rental_rate": "4.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 83,
+    "fields": {
+      "title": "Raging Bull",
+      "genre": 3,
+      "release_year": 1997,
+      "number_in_stock": 14,
+      "daily_rental_rate": "5.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 84,
+    "fields": {
+      "title": "A Beautiful Mind",
+      "genre": 3,
+      "release_year": 2025,
+      "number_in_stock": 2,
+      "daily_rental_rate": "2.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 85,
+    "fields": {
+      "title": "The Imitation Game",
+      "genre": 3,
+      "release_year": 1973,
+      "number_in_stock": 13,
+      "daily_rental_rate": "4.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 86,
+    "fields": {
+      "title": "Django Unchained",
+      "genre": 3,
+      "release_year": 2021,
+      "number_in_stock": 4,
+      "daily_rental_rate": "3.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 87,
+    "fields": {
+      "title": "Inglourious Basterds",
+      "genre": 7,
+      "release_year": 1982,
+      "number_in_stock": 7,
+      "daily_rental_rate": "5.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 88,
+    "fields": {
+      "title": "Once Upon a Time in Hollywood",
+      "genre": 8,
+      "release_year": 1998,
+      "number_in_stock": 5,
+      "daily_rental_rate": "4.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 89,
+    "fields": {
+      "title": "Reservoir Dogs",
+      "genre": 3,
+      "release_year": 1981,
+      "number_in_stock": 9,
+      "daily_rental_rate": "5.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 90,
+    "fields": {
+      "title": "Kill Bill: Vol. 1",
+      "genre": 3,
+      "release_year": 1985,
+      "number_in_stock": 3,
+      "daily_rental_rate": "5.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 91,
+    "fields": {
+      "title": "Kill Bill: Vol. 2",
+      "genre": 3,
+      "release_year": 2021,
+      "number_in_stock": 18,
+      "daily_rental_rate": "2.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 92,
+    "fields": {
+      "title": "The Hateful Eight",
+      "genre": 3,
+      "release_year": 1973,
+      "number_in_stock": 18,
+      "daily_rental_rate": "1.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 93,
+    "fields": {
+      "title": "No Country for Old Men",
+      "genre": 3,
+      "release_year": 1975,
+      "number_in_stock": 8,
+      "daily_rental_rate": "2.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 94,
+    "fields": {
+      "title": "Fargo",
+      "genre": 3,
+      "release_year": 1996,
+      "number_in_stock": 16,
+      "daily_rental_rate": "5.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 95,
+    "fields": {
+      "title": "The Big Lebowski",
+      "genre": 3,
+      "release_year": 1983,
+      "number_in_stock": 13,
+      "daily_rental_rate": "1.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 96,
+    "fields": {
+      "title": "The Grand Budapest Hotel",
+      "genre": 3,
+      "release_year": 1980,
+      "number_in_stock": 13,
+      "daily_rental_rate": "1.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 97,
+    "fields": {
+      "title": "Moonrise Kingdom",
+      "genre": 3,
+      "release_year": 1994,
+      "number_in_stock": 9,
+      "daily_rental_rate": "5.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 98,
+    "fields": {
+      "title": "Parasite",
+      "genre": 3,
+      "release_year": 1988,
+      "number_in_stock": 14,
+      "daily_rental_rate": "5.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 99,
+    "fields": {
+      "title": "Oldboy",
+      "genre": 3,
+      "release_year": 2012,
+      "number_in_stock": 16,
+      "daily_rental_rate": "2.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 100,
+    "fields": {
+      "title": "Memories of Murder",
+      "genre": 3,
+      "release_year": 1982,
+      "number_in_stock": 10,
+      "daily_rental_rate": "3.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 101,
+    "fields": {
+      "title": "Train to Busan",
+      "genre": 7,
+      "release_year": 1973,
+      "number_in_stock": 19,
+      "daily_rental_rate": "5.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 102,
+    "fields": {
+      "title": "The Handmaiden",
+      "genre": 3,
+      "release_year": 1973,
+      "number_in_stock": 11,
+      "daily_rental_rate": "1.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 103,
+    "fields": {
+      "title": "Pan's Labyrinth",
+      "genre": 3,
+      "release_year": 1973,
+      "number_in_stock": 19,
+      "daily_rental_rate": "5.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 104,
+    "fields": {
+      "title": "The Shape of Water",
+      "genre": 3,
+      "release_year": 2002,
+      "number_in_stock": 17,
+      "daily_rental_rate": "2.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 105,
+    "fields": {
+      "title": "Children of Men",
+      "genre": 5,
+      "release_year": 1973,
+      "number_in_stock": 17,
+      "daily_rental_rate": "2.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 106,
+    "fields": {
+      "title": "Gravity",
+      "genre": 5,
+      "release_year": 2024,
+      "number_in_stock": 6,
+      "daily_rental_rate": "2.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 107,
+    "fields": {
+      "title": "The Martian",
+      "genre": 5,
+      "release_year": 2008,
+      "number_in_stock": 3,
+      "daily_rental_rate": "3.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 108,
+    "fields": {
+      "title": "Arrival",
+      "genre": 5,
+      "release_year": 1995,
+      "number_in_stock": 4,
+      "daily_rental_rate": "3.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 109,
+    "fields": {
+      "title": "Ex Machina",
+      "genre": 5,
+      "release_year": 2007,
+      "number_in_stock": 20,
+      "daily_rental_rate": "1.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 110,
+    "fields": {
+      "title": "Her",
+      "genre": 3,
+      "release_year": 2009,
+      "number_in_stock": 3,
+      "daily_rental_rate": "4.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 111,
+    "fields": {
+      "title": "Eternal Sunshine of the Spotless Mind",
+      "genre": 3,
+      "release_year": 2012,
+      "number_in_stock": 19,
+      "daily_rental_rate": "5.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 112,
+    "fields": {
+      "title": "The Truman Show",
+      "genre": 3,
+      "release_year": 1990,
+      "number_in_stock": 9,
+      "daily_rental_rate": "3.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 113,
+    "fields": {
+      "title": "Groundhog Day",
+      "genre": 3,
+      "release_year": 2012,
+      "number_in_stock": 11,
+      "daily_rental_rate": "3.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 114,
+    "fields": {
+      "title": "Back to the Future",
+      "genre": 3,
+      "release_year": 1986,
+      "number_in_stock": 13,
+      "daily_rental_rate": "2.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 115,
+    "fields": {
+      "title": "Back to the Future Part II",
+      "genre": 3,
+      "release_year": 2012,
+      "number_in_stock": 10,
+      "daily_rental_rate": "5.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 116,
+    "fields": {
+      "title": "Back to the Future Part III",
+      "genre": 3,
+      "release_year": 1990,
+      "number_in_stock": 3,
+      "daily_rental_rate": "1.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 117,
+    "fields": {
+      "title": "Indiana Jones and the Raiders of the Lost Ark",
+      "genre": 3,
+      "release_year": 1999,
+      "number_in_stock": 20,
+      "daily_rental_rate": "2.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 118,
+    "fields": {
+      "title": "Indiana Jones and the Last Crusade",
+      "genre": 7,
+      "release_year": 1974,
+      "number_in_stock": 18,
+      "daily_rental_rate": "3.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 119,
+    "fields": {
+      "title": "Jurassic Park",
+      "genre": 3,
+      "release_year": 2002,
+      "number_in_stock": 9,
+      "daily_rental_rate": "2.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 120,
+    "fields": {
+      "title": "Jaws",
+      "genre": 3,
+      "release_year": 1992,
+      "number_in_stock": 3,
+      "daily_rental_rate": "3.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 121,
+    "fields": {
+      "title": "E.T. the Extra-Terrestrial",
+      "genre": 3,
+      "release_year": 1993,
+      "number_in_stock": 10,
+      "daily_rental_rate": "2.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 122,
+    "fields": {
+      "title": "Close Encounters of the Third Kind",
+      "genre": 3,
+      "release_year": 1998,
+      "number_in_stock": 18,
+      "daily_rental_rate": "3.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 123,
+    "fields": {
+      "title": "The Goonies",
+      "genre": 3,
+      "release_year": 2009,
+      "number_in_stock": 17,
+      "daily_rental_rate": "1.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 124,
+    "fields": {
+      "title": "Stand by Me",
+      "genre": 3,
+      "release_year": 2012,
+      "number_in_stock": 18,
+      "daily_rental_rate": "3.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 125,
+    "fields": {
+      "title": "The Breakfast Club",
+      "genre": 3,
+      "release_year": 2012,
+      "number_in_stock": 4,
+      "daily_rental_rate": "2.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 126,
+    "fields": {
+      "title": "Ferris Bueller's Day Off",
+      "genre": 3,
+      "release_year": 1986,
+      "number_in_stock": 4,
+      "daily_rental_rate": "2.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 127,
+    "fields": {
+      "title": "Home Alone",
+      "genre": 9,
+      "release_year": 2017,
+      "number_in_stock": 18,
+      "daily_rental_rate": "2.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 128,
+    "fields": {
+      "title": "Ghostbusters",
+      "genre": 7,
+      "release_year": 1987,
+      "number_in_stock": 10,
+      "daily_rental_rate": "3.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 129,
+    "fields": {
+      "title": "Beetlejuice",
+      "genre": 3,
+      "release_year": 2015,
+      "number_in_stock": 11,
+      "daily_rental_rate": "3.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 130,
+    "fields": {
+      "title": "The Princess Bride",
+      "genre": 3,
+      "release_year": 2013,
+      "number_in_stock": 9,
+      "daily_rental_rate": "5.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 131,
+    "fields": {
+      "title": "Harry Potter and the Sorcerer's Stone",
+      "genre": 3,
+      "release_year": 2001,
+      "number_in_stock": 9,
+      "daily_rental_rate": "1.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 132,
+    "fields": {
+      "title": "Harry Potter and the Prisoner of Azkaban",
+      "genre": 3,
+      "release_year": 1975,
+      "number_in_stock": 14,
+      "daily_rental_rate": "3.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 133,
+    "fields": {
+      "title": "The Lord of the Rings: The Fellowship of the Ring",
+      "genre": 7,
+      "release_year": 1972,
+      "number_in_stock": 1,
+      "daily_rental_rate": "4.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 134,
+    "fields": {
+      "title": "The Lord of the Rings: The Two Towers",
+      "genre": 7,
+      "release_year": 2019,
+      "number_in_stock": 5,
+      "daily_rental_rate": "3.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 135,
+    "fields": {
+      "title": "The Lord of the Rings: The Return of the King",
+      "genre": 7,
+      "release_year": 1980,
+      "number_in_stock": 15,
+      "daily_rental_rate": "5.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 136,
+    "fields": {
+      "title": "The Hobbit: An Unexpected Journey",
+      "genre": 3,
+      "release_year": 2015,
+      "number_in_stock": 14,
+      "daily_rental_rate": "5.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 137,
+    "fields": {
+      "title": "Star Wars: A New Hope",
+      "genre": 1,
+      "release_year": 1970,
+      "number_in_stock": 4,
+      "daily_rental_rate": "2.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 138,
+    "fields": {
+      "title": "The Empire Strikes Back",
+      "genre": 3,
+      "release_year": 2014,
+      "number_in_stock": 5,
+      "daily_rental_rate": "5.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 139,
+    "fields": {
+      "title": "Return of the Jedi",
+      "genre": 3,
+      "release_year": 1972,
+      "number_in_stock": 12,
+      "daily_rental_rate": "5.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 140,
+    "fields": {
+      "title": "Rogue One: A Star Wars Story",
+      "genre": 1,
+      "release_year": 1979,
+      "number_in_stock": 14,
+      "daily_rental_rate": "2.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 141,
+    "fields": {
+      "title": "The Force Awakens",
+      "genre": 3,
+      "release_year": 1972,
+      "number_in_stock": 10,
+      "daily_rental_rate": "4.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 142,
+    "fields": {
+      "title": "The Last Jedi",
+      "genre": 3,
+      "release_year": 2020,
+      "number_in_stock": 2,
+      "daily_rental_rate": "4.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 143,
+    "fields": {
+      "title": "The Rise of Skywalker",
+      "genre": 3,
+      "release_year": 1983,
+      "number_in_stock": 8,
+      "daily_rental_rate": "2.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 144,
+    "fields": {
+      "title": "A Quiet Place",
+      "genre": 7,
+      "release_year": 1992,
+      "number_in_stock": 18,
+      "daily_rental_rate": "4.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 145,
+    "fields": {
+      "title": "Get Out",
+      "genre": 7,
+      "release_year": 2009,
+      "number_in_stock": 5,
+      "daily_rental_rate": "3.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 146,
+    "fields": {
+      "title": "Us",
+      "genre": 7,
+      "release_year": 2025,
+      "number_in_stock": 6,
+      "daily_rental_rate": "2.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 147,
+    "fields": {
+      "title": "The Conjuring",
+      "genre": 7,
+      "release_year": 1996,
+      "number_in_stock": 1,
+      "daily_rental_rate": "2.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 148,
+    "fields": {
+      "title": "The Conjuring 2",
+      "genre": 7,
+      "release_year": 2017,
+      "number_in_stock": 11,
+      "daily_rental_rate": "4.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 149,
+    "fields": {
+      "title": "It",
+      "genre": 3,
+      "release_year": 2021,
+      "number_in_stock": 8,
+      "daily_rental_rate": "3.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 150,
+    "fields": {
+      "title": "It Chapter Two",
+      "genre": 7,
+      "release_year": 1980,
+      "number_in_stock": 4,
+      "daily_rental_rate": "4.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 151,
+    "fields": {
+      "title": "Hereditary",
+      "genre": 7,
+      "release_year": 2025,
+      "number_in_stock": 2,
+      "daily_rental_rate": "5.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 152,
+    "fields": {
+      "title": "Midsommar",
+      "genre": 7,
+      "release_year": 1984,
+      "number_in_stock": 7,
+      "daily_rental_rate": "5.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 153,
+    "fields": {
+      "title": "The Shining",
+      "genre": 7,
+      "release_year": 1992,
+      "number_in_stock": 10,
+      "daily_rental_rate": "3.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 154,
+    "fields": {
+      "title": "Doctor Sleep",
+      "genre": 3,
+      "release_year": 1984,
+      "number_in_stock": 1,
+      "daily_rental_rate": "3.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 155,
+    "fields": {
+      "title": "Halloween",
+      "genre": 7,
+      "release_year": 1995,
+      "number_in_stock": 11,
+      "daily_rental_rate": "3.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 156,
+    "fields": {
+      "title": "Scream",
+      "genre": 7,
+      "release_year": 2025,
+      "number_in_stock": 3,
+      "daily_rental_rate": "3.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 157,
+    "fields": {
+      "title": "The Ring",
+      "genre": 7,
+      "release_year": 1992,
+      "number_in_stock": 17,
+      "daily_rental_rate": "4.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 158,
+    "fields": {
+      "title": "The Exorcist",
+      "genre": 7,
+      "release_year": 2013,
+      "number_in_stock": 18,
+      "daily_rental_rate": "4.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 159,
+    "fields": {
+      "title": "The Blair Witch Project",
+      "genre": 7,
+      "release_year": 1971,
+      "number_in_stock": 4,
+      "daily_rental_rate": "3.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 160,
+    "fields": {
+      "title": "Saw",
+      "genre": 7,
+      "release_year": 1981,
+      "number_in_stock": 19,
+      "daily_rental_rate": "3.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 161,
+    "fields": {
+      "title": "The Hangover",
+      "genre": 2,
+      "release_year": 1972,
+      "number_in_stock": 4,
+      "daily_rental_rate": "4.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 162,
+    "fields": {
+      "title": "Superbad",
+      "genre": 2,
+      "release_year": 1992,
+      "number_in_stock": 11,
+      "daily_rental_rate": "4.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 163,
+    "fields": {
+      "title": "Step Brothers",
+      "genre": 2,
+      "release_year": 2008,
+      "number_in_stock": 17,
+      "daily_rental_rate": "2.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 164,
+    "fields": {
+      "title": "Anchorman: The Legend of Ron Burgundy",
+      "genre": 2,
+      "release_year": 1994,
+      "number_in_stock": 19,
+      "daily_rental_rate": "3.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 165,
+    "fields": {
+      "title": "Bridesmaids",
+      "genre": 2,
+      "release_year": 1986,
+      "number_in_stock": 2,
+      "daily_rental_rate": "4.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 166,
+    "fields": {
+      "title": "Mean Girls",
+      "genre": 2,
+      "release_year": 1970,
+      "number_in_stock": 17,
+      "daily_rental_rate": "5.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 167,
+    "fields": {
+      "title": "21 Jump Street",
+      "genre": 3,
+      "release_year": 2013,
+      "number_in_stock": 7,
+      "daily_rental_rate": "4.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 168,
+    "fields": {
+      "title": "22 Jump Street",
+      "genre": 3,
+      "release_year": 1997,
+      "number_in_stock": 3,
+      "daily_rental_rate": "4.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 169,
+    "fields": {
+      "title": "Zoolander",
+      "genre": 2,
+      "release_year": 2009,
+      "number_in_stock": 11,
+      "daily_rental_rate": "2.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 170,
+    "fields": {
+      "title": "Dumb and Dumber",
+      "genre": 2,
+      "release_year": 2016,
+      "number_in_stock": 10,
+      "daily_rental_rate": "5.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 171,
+    "fields": {
+      "title": "Borat",
+      "genre": 2,
+      "release_year": 1989,
+      "number_in_stock": 14,
+      "daily_rental_rate": "4.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 172,
+    "fields": {
+      "title": "Shaun of the Dead",
+      "genre": 3,
+      "release_year": 1995,
+      "number_in_stock": 10,
+      "daily_rental_rate": "5.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 173,
+    "fields": {
+      "title": "Hot Fuzz",
+      "genre": 3,
+      "release_year": 1978,
+      "number_in_stock": 7,
+      "daily_rental_rate": "4.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 174,
+    "fields": {
+      "title": "Scott Pilgrim vs. the World",
+      "genre": 3,
+      "release_year": 2012,
+      "number_in_stock": 13,
+      "daily_rental_rate": "2.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 175,
+    "fields": {
+      "title": "Knives Out",
+      "genre": 3,
+      "release_year": 2009,
+      "number_in_stock": 19,
+      "daily_rental_rate": "3.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 176,
+    "fields": {
+      "title": "Glass Onion",
+      "genre": 3,
+      "release_year": 1995,
+      "number_in_stock": 18,
+      "daily_rental_rate": "1.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 177,
+    "fields": {
+      "title": "The Nice Guys",
+      "genre": 3,
+      "release_year": 1989,
+      "number_in_stock": 10,
+      "daily_rental_rate": "3.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 178,
+    "fields": {
+      "title": "Baby Driver",
+      "genre": 4,
+      "release_year": 1997,
+      "number_in_stock": 19,
+      "daily_rental_rate": "4.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 179,
+    "fields": {
+      "title": "Drive",
+      "genre": 4,
+      "release_year": 1999,
+      "number_in_stock": 15,
+      "daily_rental_rate": "5.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 180,
+    "fields": {
+      "title": "Nightcrawler",
+      "genre": 4,
+      "release_year": 2013,
+      "number_in_stock": 7,
+      "daily_rental_rate": "5.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 181,
+    "fields": {
+      "title": "The Revenant",
+      "genre": 3,
+      "release_year": 2000,
+      "number_in_stock": 6,
+      "daily_rental_rate": "2.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 182,
+    "fields": {
+      "title": "Birdman",
+      "genre": 3,
+      "release_year": 1988,
+      "number_in_stock": 17,
+      "daily_rental_rate": "4.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 183,
+    "fields": {
+      "title": "Argo",
+      "genre": 3,
+      "release_year": 1975,
+      "number_in_stock": 8,
+      "daily_rental_rate": "3.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 184,
+    "fields": {
+      "title": "Spotlight",
+      "genre": 3,
+      "release_year": 1984,
+      "number_in_stock": 7,
+      "daily_rental_rate": "2.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 185,
+    "fields": {
+      "title": "12 Years a Slave",
+      "genre": 3,
+      "release_year": 1971,
+      "number_in_stock": 2,
+      "daily_rental_rate": "3.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 186,
+    "fields": {
+      "title": "The King's Speech",
+      "genre": 3,
+      "release_year": 2000,
+      "number_in_stock": 20,
+      "daily_rental_rate": "2.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 187,
+    "fields": {
+      "title": "Slumdog Millionaire",
+      "genre": 3,
+      "release_year": 1999,
+      "number_in_stock": 14,
+      "daily_rental_rate": "3.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 188,
+    "fields": {
+      "title": "The Hurt Locker",
+      "genre": 3,
+      "release_year": 2015,
+      "number_in_stock": 13,
+      "daily_rental_rate": "5.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 189,
+    "fields": {
+      "title": "Black Swan",
+      "genre": 3,
+      "release_year": 1995,
+      "number_in_stock": 8,
+      "daily_rental_rate": "2.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 190,
+    "fields": {
+      "title": "The Theory of Everything",
+      "genre": 3,
+      "release_year": 2011,
+      "number_in_stock": 1,
+      "daily_rental_rate": "2.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 191,
+    "fields": {
+      "title": "The Grandmaster",
+      "genre": 3,
+      "release_year": 2019,
+      "number_in_stock": 14,
+      "daily_rental_rate": "3.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 192,
+    "fields": {
+      "title": "Ip Man",
+      "genre": 3,
+      "release_year": 1981,
+      "number_in_stock": 17,
+      "daily_rental_rate": "5.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 193,
+    "fields": {
+      "title": "Crouching Tiger, Hidden Dragon",
+      "genre": 3,
+      "release_year": 1973,
+      "number_in_stock": 18,
+      "daily_rental_rate": "3.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 194,
+    "fields": {
+      "title": "Hero",
+      "genre": 3,
+      "release_year": 2024,
+      "number_in_stock": 4,
+      "daily_rental_rate": "5.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 195,
+    "fields": {
+      "title": "House of Flying Daggers",
+      "genre": 7,
+      "release_year": 1978,
+      "number_in_stock": 15,
+      "daily_rental_rate": "5.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 196,
+    "fields": {
+      "title": "Rocky",
+      "genre": 3,
+      "release_year": 2005,
+      "number_in_stock": 20,
+      "daily_rental_rate": "4.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 197,
+    "fields": {
+      "title": "Creed",
+      "genre": 3,
+      "release_year": 2018,
+      "number_in_stock": 15,
+      "daily_rental_rate": "5.99"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 198,
+    "fields": {
+      "title": "The Karate Kid",
+      "genre": 3,
+      "release_year": 1997,
+      "number_in_stock": 18,
+      "daily_rental_rate": "5.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 199,
+    "fields": {
+      "title": "Remember the Titans",
+      "genre": 3,
+      "release_year": 1980,
+      "number_in_stock": 16,
+      "daily_rental_rate": "5.49"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 200,
+    "fields": {
+      "title": "Friday Night Lights",
+      "genre": 3,
+      "release_year": 1986,
+      "number_in_stock": 8,
+      "daily_rental_rate": "3.99"
+    }
+  }
+]

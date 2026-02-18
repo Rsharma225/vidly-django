@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2>{{ movie.title }}</h2>
+
+<ul class="list-group">
+    <li class="list-group-item"><strong>Genre:</strong> {{ movie.genre.name }}</li>
+    <li class="list-group-item"><strong>Release Year:</strong> {{ movie.release_year }}</li>
+    <li class="list-group-item"><strong>Stock:</strong> {{ movie.number_in_stock }}</li>
+    <li class="list-group-item"><strong>Rate:</strong> ${{ movie.daily_rental_rate }}</li>
+</ul>
+
+<a href="/" class="btn btn-secondary mt-3">Back</a>
+{% endblock %}
